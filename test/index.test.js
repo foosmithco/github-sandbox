@@ -9,4 +9,9 @@ describe('Main', function() {
     const result_int = maths.add(2, 3);
     expect(result_int).toBe(5);
   });
+
+  test('For full coverage', function() {
+    const result_int = maths.subtract(3, 2);
+    expect(result_int).toBe(1);
+  });
 });
