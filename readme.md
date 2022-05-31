@@ -2,6 +2,8 @@
 
 Just trying out Github features
 
+<div align="center">
+
 ![npm](https://img.shields.io/npm/v/github-sandbox?style=for-the-badge)
 
 ![CircleCI](https://img.shields.io/circleci/build/github/foosmithco/github-sandbox?style=for-the-badge&token=8f821bf79b)
@@ -11,3 +13,5 @@ Just trying out Github features
 ![GitHub issues](https://img.shields.io/github/issues-raw/foosmithco/github-sandbox?style=for-the-badge)
 
 ![GitHub](https://img.shields.io/github/license/foosmithco/github-sandbox?style=for-the-badge)
+
+</div>
