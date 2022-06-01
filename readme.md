@@ -20,35 +20,38 @@ Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Placerat in egest
 
 The *Options* argument has the following properties:
 
-<div style="border: 1px; padding: 20px;">
-  <div style="border-bottom: 1px solid #dedede;">
-    **base**
-    <p>A directory that will serve as the starting point for file searches.
-    </p>
-    <p>
-    Example:
-    ```
-    const file_path = eitherFile('.env', {base: '~/top-folder/my-project'});
-    /**
-     * This will look for a '.env' file from 'my-project' directory
-     * under the 'top-folder' directory under the home directory
-     */
-    ```
-    </p>
-    <p>
-    Example:
-    ```
-    const file_path = eitherFile('.env', {base: '~/top-folder/my-project'});
-    /**
-     * This will look for a '.env' file from 'my-project' directory
-     * under the 'top-folder' directory under the home directory
-     */
-    ```
-    </p>
-    <p>
-    <strong>Rules:</strong>:
-    - This directory can have absolute or relative path
-    - If the directory has a relative path, this path will be normalized to an absolute path [based on the current working directory]
-    </p>
-  </div>
-</div>
+- **base**
+- **up**
+- **down**
+- **contains**
+- **debug**
+
+#### base
+
+A directory that will serve as the starting point for file searches.
+
+|---|---|
+| **Type** | *String* |
+
+
+**Example**:
+
+```
+const file_path = eitherFile('.env', {base: '~/top-folder/my-project'});
+/**
+  * This will look for a '.env' file from 'my-project' directory
+  * under the 'top-folder' directory under the home directory
+  */
+```
+Example:
+```
+const file_path = eitherFile('.env', {base: '../my-project'});
+/**
+  * This will look for a '.env' file from a 'my-project' directory
+  * relative to where you run/invoke the node process
+  */
+```
+
+**Rules:**
+- This directory can have absolute or relative path
+- If the directory has a relative path, this path will be normalized to an absolute path [based on the current working directory]
