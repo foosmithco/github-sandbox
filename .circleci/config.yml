@@ -21,7 +21,6 @@ jobs:
           command: npm run test
       - codecov/upload
 
-
 workflows:
   build-main:
     jobs:
