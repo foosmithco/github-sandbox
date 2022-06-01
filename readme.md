@@ -30,7 +30,7 @@ The *Options* argument has the following properties:
 
 A directory that will serve as the starting point for file searches.
 
-|---|---|
+| --- | --- |
 | **Type** | *String* |
 
 
