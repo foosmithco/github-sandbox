@@ -20,7 +20,7 @@ Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Placerat in egest
 
   <summary>Here's a quick scenario in detail (~ 4 min read).</summary>
 <br/>
-Let's say your project uses *[dotenv](https://github.com/motdotla/dotenv)* and has the following structure:
+Let's say your project uses [dotenv](https://github.com/motdotla/dotenv) and has the following structure:
 
 ```
 .
